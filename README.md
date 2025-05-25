@@ -1,5 +1,5 @@
  ## 🤸🏼‍♂️ Process Stability & Variation analysis in Operations and Supply Chain using Microsoft Excel
- This respository presents a collection of practical case studies that explore **process stability**, **common cause variation**, and **special cause variation** using statistical analysis methods
+ This respository presents a collection of practical case studies that explore **process stability**, **common cause variation**, and **special cause variation** using statistical analysis methods. The focus is on real-world operational processes such as manufacturing cycle times, supplier lead times, and customer service quality using Excel
 
 ---
 
