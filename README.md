@@ -6,9 +6,9 @@
 ## 🧑🏽‍🎤Process Stability Studies
 | *Determine if the process is stable or not* | *Test for stability* |
 | ------------------------------------------  |  ------------------  |
-| 1. Measurement System Analysis (MSA)        | 1. Change should not |
-| 2. Collection of data                       | be made to an        |
-| 3. Check for accuracy and validity          | unstable process     |
+| 1. Measurement System Analysis (MSA)        | 1. Change should not be made to an unstable process|
+| 2. Collection of data                       |                      |
+| 3. Check for accuracy and validity          |                      |
 
 - A process becomes unstable due to special cause of variation
 - Multiple special causes of variation lead to instability
