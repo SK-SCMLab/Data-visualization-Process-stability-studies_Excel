@@ -56,10 +56,9 @@ Analyze Cycle Time data across multiple shifts to determine if the production pr
 ### 🧗‍♀️ Analysis
 1. ** Key observations ** 
 - Control chart (XṜ) to visualize shift level averages and range
-- Detection of special cause variation on specific data points by considering top 51 line items through sampling method in excel
+- Detection of special cause variation on specific data points by considering top 51 line items through sampling method(top 100 data points) in excel
   - Most subgroups fall within control limits, including stable average time
   - Some occasional shifts suggest delays in specific production batches
-  - Variability appears to increase in mid-batch runs - warranting further investigation into raw material consistency or machine calibration
   - Higher ranges in preprocessing transport stages suggest inconsistency
   - Specific outliers exceed control limits, pointing to potential breakdowns
   
