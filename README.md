@@ -38,3 +38,32 @@ For a stable process the same data used to determine stability can be used to ca
 - A p-value of 0.05 or lower is generally considered statistically significant
 ---
 
+## 🦞 Case study 1: Production Line Cycle Time Stability
+
+### 🏑 Objective
+Analyze Cycle Time data across multiple shifts to determine if the production process is stable or impacted by specific causes 
+
+### 🎲 Dataset
+- Orders
+- Standard resources
+- Bottleneck Protection
+- Cooling Time
+- Preprocessing Time
+- Production Capacity
+- Production Time
+- Transport Time
+
+### 🧗‍♀️ Analysis
+1. ** Key observations ** 
+- Control chart (XṜ) to visualize shift level averages and range
+- Detection of special cause variation on specific data points by considering top 51 line items through sampling
+  - Most subgroups fall within control limits, including stable average time
+  - Some occasional shifts suggest delays in specific production batches
+  - Variability appears to increase in mid-batch runs - warranting further investigation into raw material consistency or machine calibration
+  - Higher ranges in preprocessing and transport stages suggest inconsistency
+  - Specific outliers exceed control limits, pointing to potential breakdowns
+  
+2. ** Improvement areas **
+- *TransportTime* fluctuations could be reduced by improving logistics scheduling
+- *Preprocessing variability* suggests need for tighter operator SOPs
+- Implement *real-time dashboards* to alert when Range exceeds predefined thresholds
