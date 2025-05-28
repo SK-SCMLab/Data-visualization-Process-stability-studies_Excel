@@ -56,7 +56,7 @@ Analyze Cycle Time data across multiple shifts to determine if the production pr
 ### 🧗‍♀️ Analysis
 1. ** Key observations ** 
 - Control chart (XṜ) to visualize shift level averages and range
-- Detection of special cause variation on specific data points by considering top 51 line items through sampling method(top 100 data points) in excel
+- Detection of special cause variation at specific data points by considering top 51 line items through **sampling** technique (top 100 data points) in Excel
   - Most subgroups fall within control limits, including stable average time
   - Some occasional shifts suggest delays in specific production batches
   - Higher ranges in preprocessing transport stages suggest inconsistency
@@ -85,4 +85,29 @@ Evaluate the stability of OTIF delivery performance across customer order lines 
 - Forward Operating Location (FOL) date/Delivery confirmation date
 
 ### 🏌🏻 Analysis
-1. **
+1. ** Key observations **
+- Control chart (XṜ) to visualize OTIF averages ranging by weekly delivery period
+- Detection of special cause variation (OTIF underperformed) at specific data points by considering top 100 line items through **sampling** technique in Excel
+   - Outliers are detected which are caused by system errors, supplier issues, or transportation strikes
+
+ ---
+ 
+## 🧳 Repository structure
+Manufacturing_sample dataset.xlsm
+  - Standard resources
+  - COLDs
+
+---
+
+## 🤌🏻 Excel functionalities used
+1. Pivot tables & Pivot Charts
+2. IF() conditional statement
+3. IFAND() function
+4. Line chart
+5. RANDBETWEEN() function
+6. RAND() function
+7. AVERAGE() function
+8. T.Test() for Mean value array
+9. F.Test() for Range value array
+
+---
