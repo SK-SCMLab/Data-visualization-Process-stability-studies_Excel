@@ -111,3 +111,7 @@ Manufacturing_sample dataset.xlsm
 9. F.Test() for Range value array
 
 ---
+
+## 🏋🏻 Requirements
+- Microsoft Excel 2016 or later
+- Basic understanding of OTIF, Six Sigma fundamentals, Manufacturing operations
