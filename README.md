@@ -68,3 +68,21 @@ Analyze Cycle Time data across multiple shifts to determine if the production pr
 - *TransportTime* fluctuations could be reduced by improving logistics scheduling
 - *Preprocessing variability* suggests need for tighter operator SOPs
 - Implement *real-time dashboards* to alert when Range exceeds predefined thresholds
+
+## 🧌 Case study 2: OTIF (On-Time In-Full) Delivery analysis using X-R control chart
+
+### 🏃‍♂️‍➡️ Objective
+Evaluate the stability of OTIF delivery performance across customer order lines to:
+- Identify process consistency
+- Detect abnormal delivery trends
+- Enable continuous improvement in supply chain execution
+
+### 🪢 Dataset
+- Order Qty
+- Delivery Qty
+- OTIF flag ('1 = Delivered on Time and In Full', '0 = Not OTIF')
+- Promise Date
+- Forward Operating Location (FOL) date/Delivery confirmation date
+
+### 🏌🏻 Analysis
+1. **
