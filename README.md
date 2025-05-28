@@ -1,4 +1,4 @@
- ## 🤸🏼‍♂️ Process Stability & Variation analysis in Operations and Supply Chain using Microsoft Excel
+ ## 🤸🏼‍♂️ Process Stability & Variation analysis in Manufacturing operations using Microsoft Excel
  This respository presents a collection of practical case studies that explore **process stability**, **common cause variation**, and **special cause variation** using statistical analysis methods. The focus is on real-world operational processes such as manufacturing cycle times, supplier lead times, and customer service quality using Excel
 
 ---
@@ -61,6 +61,8 @@ Analyze Cycle Time data across multiple shifts to determine if the production pr
   - Some occasional shifts suggest delays in specific production batches
   - Higher ranges in preprocessing transport stages suggest inconsistency
   - Specific outliers exceed control limits, pointing to potential breakdowns
+ - *Performed T.Test on Mean (X-bar)* to compare the cycle time and machine efficiency evaluation || The observed p-value for the sample dataset of 100 line items are statisically significant as the value is lesser than 0.05
+ - *Performed F.Test on Range (R)* to monitor process stability and machine variability || The observed p-value for the sample dataset of 100 line items are statisically significant as the value is lesser than 0.05
   
 2. ** Improvement areas **
 - *TransportTime* fluctuations could be reduced by improving logistics scheduling
