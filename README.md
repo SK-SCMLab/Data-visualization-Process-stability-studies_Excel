@@ -91,7 +91,13 @@ Evaluate the stability of OTIF delivery performance across customer order lines 
    - Outliers are detected which are caused by system errors, supplier issues, or transportation strikes
 
  ---
- 
+
+## 🧑‍🏫 Verifying process stability and normality
+For stable process, the same data which is used to determine stability can be used to calculate the process capability after normality is checked. Normality is a condition of a process that follows a normal distribution.
+- If the p-value is greater than 0.05, the data could be described as normally distributed
+
+---
+
 ## 🧳 Repository structure
 Manufacturing_sample dataset.xlsm
   - Standard resources
