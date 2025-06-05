@@ -122,4 +122,4 @@ Manufacturing_sample dataset.xlsm
 - Microsoft Excel 2016 or later
 - Basic understanding of OTIF, Six Sigma fundamentals, Manufacturing operations
 
-*You can't improve what you don't measure - and you can't manage what you don't control*
+*"You can't improve what you don't measure - and you can't manage what you don't control"*
